@@ -1,0 +1,3 @@
+[submodule "src/pico_blink_lib"]
+	path = src/pico_blink_lib
+	url = https://github.com/interface-git-hub/pico_blink_lib
