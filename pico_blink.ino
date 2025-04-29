@@ -1,13 +1,12 @@
+#include "src/pico_blink_lib/pico_blink_lib.hpp"
+
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  BlinkInit();
 }
 
 void loop() {
   for (int i = 0; i < 3; i++) {
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(100);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(200);
+    BlinkLed();
   }
   delay(1000);
 }
